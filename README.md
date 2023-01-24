@@ -1,2 +1,2 @@
 # Armour-Weight-Integration
-An exapmle mod for Armour Weight
+An example mod for Armour Weight
