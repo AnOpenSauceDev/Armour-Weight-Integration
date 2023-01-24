@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "weight_integration",
+  "version": "${version}",
+  "name": "DataHandlingLib",
+  "description": "A lightweight and fast library for storing data for a certain block game.",
+  "authors": [
+    "AnOpenSauceDev"
+  ],
+  "contact": {
+    "website": "https://github.com/AnOpenSauceDev/",
+    "repo": "https://github.com/AnOpenSauceDev/"
+  },
+  "license": "MIT",
+  "icon": "assets/weightIntegration/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "an.opensauce.weightIntegration"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.12",
+    "fabric": "*",
+    "minecraft": "1.19.3"
+  }
+}
