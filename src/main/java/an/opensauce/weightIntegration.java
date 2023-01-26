@@ -23,11 +23,11 @@ public class weightIntegration implements ModInitializer {
     public static ArmorMaterial Mudmat = new mudmat();
     public static Item Mud_Chestplate = new ArmorItem(Mudmat, EquipmentSlot.CHEST, new Item.Settings());
 
-    public static armourWeightDef Mud_Chestplate_Def = new armourWeightDef(armourType.CHEST,1f,Mud_Chestplate);
+    public static armourWeightDef Mud_Chestplate_Def = new armourWeightDef(armourType.CHEST,1f,Mud_Chestplate); // define the weight for Mud_Chestplate
 
     @Override
     public void onInitialize() {
-        Registry.register(Registries.ITEM,new Identifier("weight_integration","mud_chestplate"),Mud_Chestplate);
-        WeightUtil.addElement(Mud_Chestplate_Def);
+        Registry.register(Registries.ITEM,new Identifier("weight_integration","mud_chestplate"),Mud_Chestplate); 
+        WeightUtil.addElement(Mud_Chestplate_Def); // register our armour
     }
 }
